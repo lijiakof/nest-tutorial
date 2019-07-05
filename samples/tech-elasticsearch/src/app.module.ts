@@ -6,7 +6,7 @@ import { SearchService } from './search.service';
 @Module({
     imports: [
           ElasticsearchModule.register({
-            host: '10.5.11.86:9200',
+            host: 'localhost:9200',
             log: 'trace',
       }),
     ],
