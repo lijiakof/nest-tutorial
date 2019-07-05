@@ -9,7 +9,7 @@
 * [【Nest 极速指南】应用篇之数据库](./docs/nest-database.md)
 * [【Nest 极速指南】应用篇之 ElasticSearch](./docs/nest-elasticsearch.md)
 * [【Nest 极速指南】应用篇 GraphQL](./docs/nest-graphql.md)
-* 【Nest 极速指南】高级篇
+* [【Nest 极速指南】总结篇](./docs/nest-summary.md)
 
 
 
