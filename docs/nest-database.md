@@ -1,4 +1,4 @@
-# Nest 极速指南】进阶篇之数据库
+# 【Nest 极速指南】应用篇之数据库
 Nest 也提供了类似于 Mybatis 的 ORM 工具，这样会简化对连接数据库的操作提高工作效率，Nest 使用的是 `@nestjs/typeorm` 包来完成的，因为 [TypeORM](https://github.com/typeorm/typeorm) 是目前 Nodejs 中最成熟的 ORM 工具。
 
 这篇文章你会学习到：
@@ -182,3 +182,5 @@ const defaultOptions = {
 })
 export class AppModule {}
 ```
+
+〖坚持的一俢〗
