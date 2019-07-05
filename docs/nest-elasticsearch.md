@@ -110,6 +110,6 @@ import { ElasticsearchModule } from '@nestjs/elasticsearch';
 export class AppModule { }
 ```
 
-这样，就大功告成了！
+这样，启动并访问 `localhost:3000/search`，就大功告成了！
 
 〖坚持的一俢〗
