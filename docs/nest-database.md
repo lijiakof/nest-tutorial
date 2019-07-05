@@ -14,7 +14,7 @@ Nest 也提供了类似于 Mybatis 的 ORM 工具，这样会简化对连接数�
 ```
 npm install --save @nestjs/typeorm typeorm mongodb
 Or
-yarn add @nestjs/typeorm mongodb
+yarn add @nestjs/typeorm typeorm mongodb
 ```
 
 安装完成后，我们需要将 `TypeOrmModule` 导入到 `AppModule`：
@@ -24,6 +24,7 @@ yarn add @nestjs/typeorm mongodb
 
 import { Module, MiddlewareConsumer } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { join } from 'path';
 
 @Module({
     imports: [
@@ -103,15 +104,15 @@ import { Product } from './product.entity';
 @Injectable()
 export class ProductsService {
     constructor(
-        @InjectRepository(Product) private readonly hotelRepository: Repository<Product>,
+        @InjectRepository(Product) private readonly productRepository: Repository<Product>,
     ) { }
 
     async findOne(): Promise<Product> {
-        return await this.hotelRepository.findOne();
+        return await this.productRepository.findOne();
     }
 
     async findAll(): Promise<Product[]> {
-        return await this.hotelRepository.find({
+        return await this.productRepository.find({
             take: 10,
         });
     }
