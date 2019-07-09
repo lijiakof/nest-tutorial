@@ -44,13 +44,37 @@ Nest 还提供了和服务端相关的各种组件，例如 ORM、ES、Redis 等
 
 * TypeORM
 * Authentication
-* Validation
 * Caching
 * Serialization
 * Log
 * Security
 * Configuration
+* GraphQL
 * ...
+
+### TypeORM
+TypeORM 绝对是 Node.js 中可用的最成熟的对象关系映射器 (ORM)，我们只需要通过简单的编写，就能够完成数据库的相关操作。
+
+### Authentication
+Authentication 这一块 Nest 采用的是 Nodejs 最流行的库 `passport`，他可以帮你很容易的解决权限相关问题。
+
+### Caching
+Nest 也提供了丰富的缓存方式：内存缓存、Redis、自定义缓存等等。
+
+### Serialization
+Nest 附带了这个 ClassSerializerInterceptor 类。它使用类转换器来提供转换对象的声明性和可扩展方式。
+
+### Log
+日志记录是服务端应用不可获取的功能，Nest 提供了内置的日志系统，当然也可以采用用户自己提供的。
+
+### Security
+安全这一块，Nest 提供了 Helmet、CORS、CSRF、限速等功能。
+
+### Configuration
+针对不同环境的运行 Nest 提供了 ConfigModule 来解决这一问题，不过个人还是觉得不要使用它自带的，自己来写就行了。
+
+### GraphQL
+当今前端流行的 GraphQL，它当然支持，只需要简单的引入相关模块就可以了。
 
 ## 写在最后
 Nest 的确是一个 Nodejs 服务器端应用的一个完善的框架，它提供了强大的工具让我们完成一个后端 API 的相关功能，从路由到权限、从数据库到缓存、从日志到安全，甚至是比较流行的搜索、GraphQL、微服务等功能它也提供给我们。个人感觉，它是现阶段 Nodejs 相对完善的、可以作为企业级开发的框架。
