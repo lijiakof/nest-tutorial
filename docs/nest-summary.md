@@ -3,6 +3,16 @@ Nest 作为一个渐进式的 Node.js 服务器端框架，它实现了类似于
 
 通过一段时间 Nest 的学习和简单实践，回过头来总结一下，以便未来更好的运用。
 
+## 先回顾相关文章：
+* [《【Nest 极速指南】基础篇之 HelloWorld》](./nest-abc.md)
+* [《【Nest 极速指南】基础篇之 Controller》](./nest-controller.md)
+* [《【Nest 极速指南】基础篇之 Provider》](./nest-provider.md)
+* [《【Nest 极速指南】基础篇之 Module》](./nest-module.md)
+* [《【Nest 极速指南】进阶篇之 Middleware》](./nest-middleware.md)
+* [《【Nest 极速指南】进阶篇之其它》](./nest-others.md)
+* [《【Nest 极速指南】应用篇之数据库》](./nest-database.md)
+* [《【Nest 极速指南】应用篇之 ElasticSearch](./nest-elasticsearch.md)
+
 ## Nest 的基本功能
 Nest 基本功能已经提供了日常所需，但是在使用的时候，切记它的设计原则：AOP 的编程思想，大量使用依赖注入的方式。下面我们一一介绍：
 
